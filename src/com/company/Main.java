@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.dp.Behavioural.Vistordps.AsyclicApproch.AsyclicVisitorDriver;
 import com.company.dp.Behavioural.Vistordps.clasicApproch.ClassicVistorDriver;
 import com.company.dp.Behavioural.Vistordps.instrusiveApproch.IntrusiveVistorDpDriver;
 import com.company.dp.Behavioural.Vistordps.reflectiveApproach.ReflectiveVistorDpDriver;
@@ -11,6 +12,7 @@ public class Main {
         System.out.println("Hello World main Driver");
         //IntrusiveVistorDpDriver.driveIntrusiveVistor();
         //ReflectiveVistorDpDriver.DriveReflectiveVistor();
-        ClassicVistorDriver.driveClassicVistor();
+        //ClassicVistorDriver.driveClassicVistor();
+        AsyclicVisitorDriver.driveAsyclicVisitor();
     }
 }
